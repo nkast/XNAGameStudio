@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <HasSharedItems>true</HasSharedItems>
+    <SharedGUID>0e0650a9-39a0-4e52-83a3-20f803fabac0</SharedGUID>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration">
+    <Import_RootNamespace>Platformer</Import_RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="$(MSBuildThisFileDirectory)Animation.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)AnimationPlayer.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Circle.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Enemy.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Gem.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Level.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)PlatformerGame.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Player.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)RectangleExtensions.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Tile.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)TouchCollectionExtensions.cs" />
+  </ItemGroup>
+</Project>

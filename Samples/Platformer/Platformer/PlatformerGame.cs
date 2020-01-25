@@ -64,6 +64,9 @@ namespace Platformer
             graphics.IsFullScreen = true;
             TargetElapsedTime = TimeSpan.FromTicks(333333);
 #endif
+#if ANDROID
+            graphics.IsFullScreen = true;
+#endif
 
             Accelerometer.Initialize();
         }
