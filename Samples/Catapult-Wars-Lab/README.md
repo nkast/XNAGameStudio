@@ -10,9 +10,9 @@ Tutorial
 
 Sample Overview
 
-This lab is a full 2D gesture-based catapult battle game. Launch rocks to crush your opponent, but beware the changing wind! Two learning modules help you build the gameplay from scratch, then polish with animation, sounds, and menu screens, all in 90 minutes. Based on the [Game State Management Sample](https://github.com/nkast/XNAGameStudio/tree/master/src/Game-State-Management/).
+This lab is a full 2D gesture-based catapult battle game. Launch rocks to crush your opponent, but beware the changing wind! Two learning modules help you build the gameplay from scratch, then polish with animation, sounds, and menu screens, all in 90 minutes. Based on the [Game State Management Sample](https://github.com/nkast/XNAGameStudio/tree/master/Samples/Game-State-Management/).
 
-For more fun with Catapult Wars, see the [Catapult Wars Extensions Kit](https://github.com/nkast/XNAGameStudio/tree/master/src/Catapult-Wars-Extensions-Kit/).
+For more fun with Catapult Wars, see the [Catapult Wars Extensions Kit](https://github.com/nkast/XNAGameStudio/tree/master/Samples/Catapult-Wars-Extensions-Kit/).
 
 Contains:
 

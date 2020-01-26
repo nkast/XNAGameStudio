@@ -16,7 +16,7 @@ Sample Overview
 
 This sample shows how to create and join network sessions, and how to exchange data using a peer-to-peer network topology. Each player controls a tank, which they can drive around the screen while rotating the turret. The game simulation is distributed over all the computers in the session, with each computer being responsible for updating the tanks belonging to its local players.
 
-For an alternative way to handle networked game simulation, see the [Client/Server](https://github.com/nkast/XNAGameStudio/tree/master/src/Network-Architecture-Client-Server/) sample, which implements the same tank movement by using a client/server network topology.
+For an alternative way to handle networked game simulation, see the [Client/Server](https://github.com/nkast/XNAGameStudio/tree/master/Samples/Network-Architecture-Client-Server/) sample, which implements the same tank movement by using a client/server network topology.
 
 
 All content and source code downloaded from this page are bound to the Microsoft Permissive License (Ms-PL).

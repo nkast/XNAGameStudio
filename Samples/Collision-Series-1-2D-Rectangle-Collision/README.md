@@ -19,13 +19,13 @@ Games don't need to be complex to be fun and interesting. Obstacle avoidance gam
 
 Other items in the Collision Series:
 
-[Collision Series 2: 2D Per-Pixel Collision](https://github.com/nkast/XNAGameStudio/tree/master/src/Collision-Series-2-2D-Per-Pixel-Collision/)
+[Collision Series 2: 2D Per-Pixel Collision](https://github.com/nkast/XNAGameStudio/tree/master/Samples/Collision-Series-2-2D-Per-Pixel-Collision/)
 
-[Collision Series 3: 2D Collision with Transformed Objects](https://github.com/nkast/XNAGameStudio/tree/master/src/Collision-Series-3-2D-Collision-with-Transformed-Objects/)
+[Collision Series 3: 2D Collision with Transformed Objects](https://github.com/nkast/XNAGameStudio/tree/master/Samples/Collision-Series-3-2D-Collision-with-Transformed-Objects/)
 
-[Collision Series 4: Collision with a Heightmap](https://github.com/nkast/XNAGameStudio/tree/master/src/Collision-Series-4-Collision-with-a-Heightmap/)
+[Collision Series 4: Collision with a Heightmap](https://github.com/nkast/XNAGameStudio/tree/master/Samples/Collision-Series-4-Collision-with-a-Heightmap/)
 
-[Collision Series 5: Heightmap Collision with Normals](https://github.com/nkast/XNAGameStudio/tree/master/src/Collision-Series-5-Heightmap-Collision-with-Normals/)
+[Collision Series 5: Heightmap Collision with Normals](https://github.com/nkast/XNAGameStudio/tree/master/Samples/Collision-Series-5-Heightmap-Collision-with-Normals/)
 
 
 All content and source code downloaded from this page are bound to the Microsoft Permissive License (Ms-PL).

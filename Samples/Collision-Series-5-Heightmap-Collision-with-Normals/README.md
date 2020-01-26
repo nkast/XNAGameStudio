@@ -14,19 +14,19 @@ This sample demonstrates how to use information about a heightmap's vertex norma
 
 Sample Overview
 
-The [Collision Series 4: Collision with a Heightmap](https://github.com/nkast/XNAGameStudio/tree/master/src/Collision-Series-4-Collision-with-a-Heightmap/) sample demonstrated how to make a sphere roll around on a heightmap. One way to improve this is by orienting the object to follow the contour of the terrain. This sample provides a more believable effect for objects such as vehicles, which won't always be pointing the same way up as they move around.
+The [Collision Series 4: Collision with a Heightmap](https://github.com/nkast/XNAGameStudio/tree/master/Samples/Collision-Series-4-Collision-with-a-Heightmap/) sample demonstrated how to make a sphere roll around on a heightmap. One way to improve this is by orienting the object to follow the contour of the terrain. This sample provides a more believable effect for objects such as vehicles, which won't always be pointing the same way up as they move around.
 
-This sample demonstrates how to do this by moving a tank around on a heightmap. The code involved is similar to the [Collision Series 4: Collision with a Heightmap](https://github.com/nkast/XNAGameStudio/tree/master/src/Collision-Series-4-Collision-with-a-Heightmap/) sample, and throughout this sample it's assumed that you're familiar with that sample. In addition, you'll use the technique described in the [Simple Animation](https://github.com/nkast/XNAGameStudio/tree/master/src/Simple-Animation/) sample to animate the tank.
+This sample demonstrates how to do this by moving a tank around on a heightmap. The code involved is similar to the [Collision Series 4: Collision with a Heightmap](https://github.com/nkast/XNAGameStudio/tree/master/Samples/Collision-Series-4-Collision-with-a-Heightmap/) sample, and throughout this sample it's assumed that you're familiar with that sample. In addition, you'll use the technique described in the [Simple Animation](https://github.com/nkast/XNAGameStudio/tree/master/Samples/Simple-Animation/) sample to animate the tank.
 
 Other items in the Collision Series:
 
-[Collision Series 1: 2D Rectangle Collision](https://github.com/nkast/XNAGameStudio/tree/master/src/Collision-Series-1-2D-Rectangle-Collision/)
+[Collision Series 1: 2D Rectangle Collision](https://github.com/nkast/XNAGameStudio/tree/master/Samples/Collision-Series-1-2D-Rectangle-Collision/)
 
-[Collision Series 2: 2D Per-Pixel Collision](https://github.com/nkast/XNAGameStudio/tree/master/src/Collision-Series-2-2D-Per-Pixel-Collision/)
+[Collision Series 2: 2D Per-Pixel Collision](https://github.com/nkast/XNAGameStudio/tree/master/Samples/Collision-Series-2-2D-Per-Pixel-Collision/)
 
-[Collision Series 3: 2D Collision with Transformed Objects](https://github.com/nkast/XNAGameStudio/tree/master/src/Collision-Series-3-2D-Collision-with-Transformed-Objects/)
+[Collision Series 3: 2D Collision with Transformed Objects](https://github.com/nkast/XNAGameStudio/tree/master/Samples/Collision-Series-3-2D-Collision-with-Transformed-Objects/)
 
-[Collision Series 4: Collision with a Heightmap](https://github.com/nkast/XNAGameStudio/tree/master/src/Collision-Series-4-Collision-with-a-Heightmap/)
+[Collision Series 4: Collision with a Heightmap](https://github.com/nkast/XNAGameStudio/tree/master/Samples/Collision-Series-4-Collision-with-a-Heightmap/)
 
 
 

@@ -14,13 +14,13 @@ This supplemental article outlines the different coordinate spaces that are nece
 
 Other items in the Shader Series
 
-[Shader Series: Introduction](https://github.com/nkast/XNAGameStudio/tree/master/src/Shader-Series-Introduction/) (Article)
+[Shader Series: Introduction](https://github.com/nkast/XNAGameStudio/tree/master/Samples/Shader-Series-Introduction/) (Article)
 
-[Shader Series 1: Vertex Lighting Sample](https://github.com/nkast/XNAGameStudio/tree/master/src/Shader-Series-1-Vertex-Lighting/)
+[Shader Series 1: Vertex Lighting Sample](https://github.com/nkast/XNAGameStudio/tree/master/Samples/Shader-Series-1-Vertex-Lighting/)
 
-[Shader Series 2: Textures and Colors Sample](https://github.com/nkast/XNAGameStudio/tree/master/src/Shader-Series-2-Textures-and-Colors/)
+[Shader Series 2: Textures and Colors Sample](https://github.com/nkast/XNAGameStudio/tree/master/Samples/Shader-Series-2-Textures-and-Colors/)
 
-[Shader Series 3: Per-Pixel Lighting Sample](https://github.com/nkast/XNAGameStudio/tree/master/src/Shader-Series-3-Per-Pixel-Lighting/)
+[Shader Series 3: Per-Pixel Lighting Sample](https://github.com/nkast/XNAGameStudio/tree/master/Samples/Shader-Series-3-Per-Pixel-Lighting/)
 
 
 All content and source code downloaded from this page are bound to the Microsoft Permissive License (Ms-PL).

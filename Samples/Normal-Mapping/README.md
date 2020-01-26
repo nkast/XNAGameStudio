@@ -10,7 +10,7 @@ Code Sample
 
 Description:
 
-This sample builds on the concepts illustrated in the [Custom Model Effect](https://github.com/nkast/XNAGameStudio/tree/master/src/Custom-Model-Effect/) sample, and it applies a normal mapping effect to a mesh. The sample also uses a custom content processor to demonstrate two additional concepts: adding and removing per-vertex data from a mesh, and reading opaque data.
+This sample builds on the concepts illustrated in the [Custom Model Effect](https://github.com/nkast/XNAGameStudio/tree/master/Samples/Custom-Model-Effect/) sample, and it applies a normal mapping effect to a mesh. The sample also uses a custom content processor to demonstrate two additional concepts: adding and removing per-vertex data from a mesh, and reading opaque data.
 
 Sample Overview
 

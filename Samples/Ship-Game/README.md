@@ -20,8 +20,8 @@ The Ship Game starter kit includes a readme file outlining the game controls, ar
 
 The following tutorials are also available:
 
-    [*Ship Game: 3D Collision with the BoxCollider Library*](https://github.com/nkast/XNAGameStudio/tree/master/src/Ship-Game-3D-Collision-with-the-BoxCollider-Library/) 
-    [*Ship Game: Adding New Content*](https://github.com/nkast/XNAGameStudio/tree/master/src/Ship-Game-Adding-New-Content/) 
+    [*Ship Game: 3D Collision with the BoxCollider Library*](https://github.com/nkast/XNAGameStudio/tree/master/Samples/Ship-Game-3D-Collision-with-the-BoxCollider-Library/) 
+    [*Ship Game: Adding New Content*](https://github.com/nkast/XNAGameStudio/tree/master/Samples/Ship-Game-Adding-New-Content/) 
 
 
 All content and source code downloaded from this page are bound to the Microsoft Permissive License (Ms-PL).

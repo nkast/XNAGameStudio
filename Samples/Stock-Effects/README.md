@@ -18,7 +18,7 @@ This code is provided for educational purposes. It may be a useful starting poin
 
 Although the built-in effect classes are simple and easy to use, the shader code behind them is complex because these effects support many rendering options within a single shader. BasicEffect, for example, allows you to toggle on or off texturing, vertex colors, and lighting, and to select per-vertex or per-pixel lighting. To support all possible permutations of these options, BasicEffect ends up needing no less than 20 different vertex shaders and 10 pixel shaders, all of which are combined within a single effect file.
 
-If you want an easy starting point to learn shader programming, use the [*Shader Series*](https://github.com/nkast/XNAGameStudio/tree/master/src/Shader-Series-Introduction/) samples. The shader samples are simpler to use than the effects described here because they don't include so many adjustable options.
+If you want an easy starting point to learn shader programming, use the [*Shader Series*](https://github.com/nkast/XNAGameStudio/tree/master/Samples/Shader-Series-Introduction/) samples. The shader samples are simpler to use than the effects described here because they don't include so many adjustable options.
 
 
 All content and source code downloaded from this page are bound to the Microsoft Permissive License (Ms-PL).

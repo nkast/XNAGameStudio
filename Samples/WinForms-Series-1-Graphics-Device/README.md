@@ -24,7 +24,7 @@ Note that this sample runs only on Windows. WinForms isn't available on Xbox 360
 
 Other items in the Winforms Series
 
-[WinForms Series 2: Content Loading](https://github.com/nkast/XNAGameStudio/tree/master/src/WinForms-Series-2-Content-Loading/)
+[WinForms Series 2: Content Loading](https://github.com/nkast/XNAGameStudio/tree/master/Samples/WinForms-Series-2-Content-Loading/)
 
 
 All content and source code downloaded from this page are bound to the Microsoft Permissive License (Ms-PL).

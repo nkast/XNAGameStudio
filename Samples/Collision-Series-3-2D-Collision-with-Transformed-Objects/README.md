@@ -12,7 +12,7 @@ Description:
 
 This tutorial explains how to perform per-pixel collision detection in two dimensions on sprites that use linear transformations such as rotation or scale.
 
-This tutorial builds on the previous tutorial in this series, [Collision Series 2: 2D Per-Pixel Collision](https://github.com/nkast/XNAGameStudio/tree/master/src/Collision-Series-2-2D-Per-Pixel-Collision/). Follow the steps in the previous tutorials before starting this one.
+This tutorial builds on the previous tutorial in this series, [Collision Series 2: 2D Per-Pixel Collision](https://github.com/nkast/XNAGameStudio/tree/master/Samples/Collision-Series-2-2D-Per-Pixel-Collision/). Follow the steps in the previous tutorials before starting this one.
 
 Tutorial Overview
 
@@ -20,13 +20,13 @@ In the previous tutorial, you enhanced your simple obstacle avoidance game by ad
 
 Other items in the Collision Series:
 
-[Collision Series 1: 2D Rectangle Collision](https://github.com/nkast/XNAGameStudio/tree/master/src/Collision-Series-1-2D-Rectangle-Collision/)
+[Collision Series 1: 2D Rectangle Collision](https://github.com/nkast/XNAGameStudio/tree/master/Samples/Collision-Series-1-2D-Rectangle-Collision/)
 
-[Collision Series 2: 2D Per-Pixel Collision](https://github.com/nkast/XNAGameStudio/tree/master/src/Collision-Series-2-2D-Per-Pixel-Collision/)
+[Collision Series 2: 2D Per-Pixel Collision](https://github.com/nkast/XNAGameStudio/tree/master/Samples/Collision-Series-2-2D-Per-Pixel-Collision/)
 
-[Collision Series 4: Collision with a Heightmap](https://github.com/nkast/XNAGameStudio/tree/master/src/Collision-Series-4-Collision-with-a-Heightmap/)
+[Collision Series 4: Collision with a Heightmap](https://github.com/nkast/XNAGameStudio/tree/master/Samples/Collision-Series-4-Collision-with-a-Heightmap/)
 
-[Collision Series 5: Heightmap Collision with Normals](https://github.com/nkast/XNAGameStudio/tree/master/src/Collision-Series-5-Heightmap-Collision-with-Normals/)
+[Collision Series 5: Heightmap Collision with Normals](https://github.com/nkast/XNAGameStudio/tree/master/Samples/Collision-Series-5-Heightmap-Collision-with-Normals/)
 
 
 

@@ -14,16 +14,16 @@ This article is an introduction to the Shader Series, a set of samples and artic
 
 Supplemental Articles
 
-[Shader Series: Coordinate Spaces](https://github.com/nkast/XNAGameStudio/tree/master/src/Shader-Series-Coordinate-Spaces/)
+[Shader Series: Coordinate Spaces](https://github.com/nkast/XNAGameStudio/tree/master/Samples/Shader-Series-Coordinate-Spaces/)
 
 
 Other items in the Shader Series
 
-[Shader Series 1: Vertex Lighting Sample](https://github.com/nkast/XNAGameStudio/tree/master/src/Shader-Series-1-Vertex-Lighting/)
+[Shader Series 1: Vertex Lighting Sample](https://github.com/nkast/XNAGameStudio/tree/master/Samples/Shader-Series-1-Vertex-Lighting/)
 
-[Shader Series 2: Textures and Colors Sample](https://github.com/nkast/XNAGameStudio/tree/master/src/Shader-Series-2-Textures-and-Colors/)
+[Shader Series 2: Textures and Colors Sample](https://github.com/nkast/XNAGameStudio/tree/master/Samples/Shader-Series-2-Textures-and-Colors/)
 
-[Shader Series 3: Per-Pixel Lighting Sample](https://github.com/nkast/XNAGameStudio/tree/master/src/Shader-Series-3-Per-Pixel-Lighting/)
+[Shader Series 3: Per-Pixel Lighting Sample](https://github.com/nkast/XNAGameStudio/tree/master/Samples/Shader-Series-3-Per-Pixel-Lighting/)
 
 
 

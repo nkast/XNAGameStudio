@@ -10,7 +10,7 @@ Tutorial
 
 Description:
 
-This tutorial teaches you how to extend the [Particles 3D](https://github.com/nkast/XNAGameStudio/tree/master/src/Particles-3D/) sample so the particle systems are defined by XML files loaded with the XNA Content Pipeline.
+This tutorial teaches you how to extend the [Particles 3D](https://github.com/nkast/XNAGameStudio/tree/master/Samples/Particles-3D/) sample so the particle systems are defined by XML files loaded with the XNA Content Pipeline.
 
 
 Sample Overview

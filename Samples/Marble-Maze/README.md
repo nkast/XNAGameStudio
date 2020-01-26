@@ -8,7 +8,7 @@ Tutorial
 
 ---
 
-The Marble Maze Lab is a complete 3D accelerometer-based game for Windows Phone 7. Move your marble through the maze as quick as possible, but beware of the pits that will force you to restart from your last checkpoint. Based on the [Game State Management Sample](https://github.com/nkast/XNAGameStudio/tree/master/src/Game-State-Management/).
+The Marble Maze Lab is a complete 3D accelerometer-based game for Windows Phone 7. Move your marble through the maze as quick as possible, but beware of the pits that will force you to restart from your last checkpoint. Based on the [Game State Management Sample](https://github.com/nkast/XNAGameStudio/tree/master/Samples/Game-State-Management/).
 
 Features:
 

@@ -20,7 +20,7 @@ Note: This sample runs only on Windows. WinForms, MSBuild, and the Content Pipel
 
 Other items in the Winforms Series
 
-[WinForms Series 1: Graphics Device](https://github.com/nkast/XNAGameStudio/tree/master/src/WinForms-Series-1-Graphics-Device/)
+[WinForms Series 1: Graphics Device](https://github.com/nkast/XNAGameStudio/tree/master/Samples/WinForms-Series-1-Graphics-Device/)
 
 
 All content and source code downloaded from this page are bound to the Microsoft Permissive License (Ms-PL).
