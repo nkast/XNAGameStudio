@@ -8,6 +8,10 @@ The project contains all the XNA samples from the XNA Creators Club site, howeve
 
 The plan is to upgrade / migrate each sample to source in a MonoGame project.  Along with gathering all the necessary XNA documentation to support them.
 
+# Using the Samples with MG in Visual Studio 2017 / 2019
+
+You need to install the latest [MG SDK](https://github.com/nkast/XNAGameStudio/tree/master/MG%20SDK/) to build those samples.
+
 # Using XNA projects in Visual Studio 2013 / 2015
 
 Help is at hand for more modern visual studio versions by using the awesome MXA Game Studio visual studio addon.
