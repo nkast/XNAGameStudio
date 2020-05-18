@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <HasSharedItems>true</HasSharedItems>
+    <SharedGUID>b9add879-cc12-44cc-b809-bce91fa444de</SharedGUID>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration">
+    <Import_RootNamespace>Primitives3D</Import_RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="$(MSBuildThisFileDirectory)BezierPrimitive.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)CubePrimitive.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)CylinderPrimitive.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)GeometricPrimitive.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Primitives3DGame.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)SpherePrimitive.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)TeapotPrimitive.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)TorusPrimitive.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)VertexPositionNormal.cs" />
+  </ItemGroup>
+</Project>
