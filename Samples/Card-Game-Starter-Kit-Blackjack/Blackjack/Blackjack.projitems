@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <HasSharedItems>true</HasSharedItems>
+    <SharedGUID>41ab8325-6683-44fd-be43-48783629d6c8</SharedGUID>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration">
+    <Import_RootNamespace>Blackjack</Import_RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="$(MSBuildThisFileDirectory)BlackjackGame.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Blackjack\Game\BlackjackCardGame.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Blackjack\Misc\BetGameComponent.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Blackjack\Players\BlackjackAIPlayer.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Blackjack\Players\BlackjackPlayer.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Blackjack\Rules\BlackjackGameEventArgs.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Blackjack\Rules\BlackjackRule.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Blackjack\Rules\BustRule.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Blackjack\Rules\InsuranceRule.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Blackjack\UI\BlackjackAnimatedDealerHandComponent.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Blackjack\UI\BlackJackAnimatedPlayerHandComponent.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Blackjack\UI\BlackJackTable.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Blackjack\UI\Button.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Misc\AudioManager.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Misc\InputHelper.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ScreenManager\GameScreen.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ScreenManager\InputState.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ScreenManager\MenuEntry.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ScreenManager\MenuScreen.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ScreenManager\PlayerIndexEventArgs.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ScreenManager\ScreenManager.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Screens\BackgroundScreen.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Screens\GameplayScreen.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Screens\InstructionScreen.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Screens\MainMenuScreen.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Screens\OptionsMenu.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Screens\PauseScreen.cs" />
+  </ItemGroup>
+</Project>

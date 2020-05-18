@@ -61,7 +61,7 @@ namespace GameStateManagement
         /// </summary>
         public MenuScreen(string menuTitle)
         {
-#if WINDOWS_PHONE
+#if WINDOWS_PHONE || ANDROID
             // menus generally only need Tap for menu selection
             EnabledGestures = GestureType.Tap;
 #endif
@@ -186,7 +186,7 @@ namespace GameStateManagement
             else if (input.IsNewButtonPress(Buttons.A, ControllingPlayer, out player))
                 OnSelectEntry(selectedEntry, player);
 
-#elif WINDOWS_PHONE
+#elif WINDOWS_PHONE || ANDROID
             // look for any taps that occurred and select any entries that were tapped
             foreach (GestureSample gesture in input.Gestures)
             {

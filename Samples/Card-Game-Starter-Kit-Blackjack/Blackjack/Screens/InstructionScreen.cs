@@ -43,7 +43,7 @@ namespace Blackjack
             TransitionOffTime = TimeSpan.FromSeconds(0.5);
 
             this.theme = theme;
-#if WINDOWS_PHONE
+#if WINDOWS_PHONE || ANDROID
             EnabledGestures = GestureType.Tap;
 #endif
         }
@@ -72,7 +72,7 @@ namespace Blackjack
         {
             if (!isExit)
             {
-#if WINDOWS_PHONE
+#if WINDOWS_PHONE || ANDROID
                 if (ScreenManager.input.Gestures.Count > 0 &&
                     ScreenManager.input.Gestures[0].GestureType == GestureType.Tap)
                 {

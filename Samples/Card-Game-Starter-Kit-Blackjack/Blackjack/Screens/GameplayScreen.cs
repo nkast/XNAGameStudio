@@ -48,7 +48,7 @@ namespace Blackjack
         {
             TransitionOnTime = TimeSpan.FromSeconds(0.0);
             TransitionOffTime = TimeSpan.FromSeconds(0.5);
-#if WINDOWS_PHONE
+#if WINDOWS_PHONE || ANDROID
             EnabledGestures = GestureType.Tap;
 #endif
             this.theme = theme;

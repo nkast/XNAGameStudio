@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <MinimumVisualStudioVersion>10.0</MinimumVisualStudioVersion>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{7E41B495-D810-49EC-AB74-1435993BFE82}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <RootNamespace>CardsFramework</RootNamespace>
+    <AssemblyName>CardsFramework</AssemblyName>
+    <DefaultLanguage>en-US</DefaultLanguage>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{786C830F-07A1-408B-BD7F-6EE04809D6DB};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <TargetFrameworkProfile>Profile5</TargetFrameworkProfile>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <!-- A reference to the entire .NET Framework is automatically included -->
+    <PackageReference Include="MonoGame.Framework.Portable.9000">
+      <Version>3.8.9001</Version>
+      <PrivateAssets>all</PrivateAssets>
+      <ExcludeAssets>runtime</ExcludeAssets>
+    </PackageReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Cards\CardPacket.cs" />
+    <Compile Include="Cards\Hand.cs" />
+    <Compile Include="Cards\TraditionalCard.cs" />
+    <Compile Include="Game\CardsGame.cs" />
+    <Compile Include="Players\Player.cs" />
+    <Compile Include="Properties\AssemblyInfo.PCL.cs" />
+    <Compile Include="Rules\GameRule.cs" />
+    <Compile Include="UI\AnimatedCardsGameComponent.cs" />
+    <Compile Include="UI\AnimatedGameComponent.cs" />
+    <Compile Include="UI\AnimatedGameComponentAnimation.cs" />
+    <Compile Include="UI\AnimatedHandGameComponent.cs" />
+    <Compile Include="UI\FlipGameComponentAnimation.cs" />
+    <Compile Include="UI\FramesetGameComponentAnimation.cs" />
+    <Compile Include="UI\GameTable.cs" />
+    <Compile Include="UI\ScaleGameComponentAnimation.cs" />
+    <Compile Include="UI\TransitionGameComponentAnimation.cs" />
+    <Compile Include="Utils\UIUtilty.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\Portable\$(TargetFrameworkVersion)\Microsoft.Portable.CSharp.targets" />
+</Project>
