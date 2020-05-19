@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <HasSharedItems>true</HasSharedItems>
+    <SharedGUID>5a7c81df-13a5-4058-90a5-fb0288c54bc1</SharedGUID>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration">
+    <Import_RootNamespace>NinjAcademy</Import_RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="$(MSBuildThisFileDirectory)Elements\General\AnimatedComponent.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Elements\General\EndingAnimationComponent.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Elements\General\LaunchedComponent.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Elements\General\StaticTextureComponent.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Elements\General\StraightLineMovementComponent.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Elements\General\StraightLineScalingComponent.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Elements\General\TexturedDrawableGameComponent.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Elements\HUD\HitPointsComponent.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Elements\HUD\ScoreComponent.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Elements\HUD\TextDisplayComponent.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Elements\RestorableStateComponent.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Elements\Specific\SwordSlash.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Elements\Specific\Target.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Elements\Specific\ThrowingStar.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)GameConstants.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)NinjAcademyGame.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ScreenManager\GameScreen.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ScreenManager\InputState.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ScreenManager\MenuEntry.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ScreenManager\MenuScreen.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ScreenManager\PlayerIndexEventArgs.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ScreenManager\ScreenManager.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Screens\BackgroundScreen.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Screens\CountdownScreen.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Screens\GameplayScreen.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Screens\HighScoreScreen.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Screens\LoadingScreen.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Screens\MainMenuScreen.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Screens\PauseScreen.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Utility\AudioManager.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Utility\ExtensionMethods.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Utility\Line.cs" />
+  </ItemGroup>
+</Project>
