@@ -75,7 +75,11 @@ namespace GameStateManagementSample
                 // A real game would probably have more content than this sample, so
                 // it would take longer to load. We simulate that by delaying for a
                 // while, giving you a chance to admire the beautiful loading screen.
+#if WINDOWS_UAP
+                System.Threading.Tasks.Task.Delay(1000);
+#else
                 Thread.Sleep(1000);
+#endif
 
                 // once the load has finished, we use ResetElapsedTime to tell the game's
                 // timing mechanism that we have just finished a very long frame, and that
@@ -185,7 +189,7 @@ namespace GameStateManagementSample
             PlayerIndex player;
             if (pauseAction.Evaluate(input, ControllingPlayer, out player) || gamePadDisconnected)
             {
-#if WINDOWS_PHONE
+#if WINDOWS_PHONE || ANDROID
                 ScreenManager.AddScreen(new PhonePauseScreen(), ControllingPlayer);
 #else
                 ScreenManager.AddScreen(new PauseMenuScreen(), ControllingPlayer);

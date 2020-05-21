@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <HasSharedItems>true</HasSharedItems>
+    <SharedGUID>02ca64b9-3d13-4f0b-808d-dfd5a1b1f65a</SharedGUID>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration">
+    <Import_RootNamespace>GameStateManagementSample</Import_RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="$(MSBuildThisFileDirectory)GameStateManagementSampleGame.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ScreenFactory.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Screens\BackgroundScreen.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Screens\Button.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Screens\GameplayScreen.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Screens\LoadingScreen.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Screens\MainMenuScreen.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Screens\MenuEntry.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Screens\MenuScreen.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Screens\MessageBoxScreen.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Screens\OptionsMenuScreen.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Screens\PauseMenuScreen.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Screens\PhoneMainMenuScreen.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Screens\PhoneMenuScreen.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Screens\PhonePauseScreen.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Screens\PlayerIndexEventArgs.cs" />
+  </ItemGroup>
+</Project>

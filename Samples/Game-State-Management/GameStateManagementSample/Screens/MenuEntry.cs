@@ -117,7 +117,7 @@ namespace GameStateManagementSample
         {
             // there is no such thing as a selected item on Windows Phone, so we always
             // force isSelected to be false
-#if WINDOWS_PHONE
+#if WINDOWS_PHONE || ANDROID
             isSelected = false;
 #endif
 
@@ -140,7 +140,7 @@ namespace GameStateManagementSample
         {
             // there is no such thing as a selected item on Windows Phone, so we always
             // force isSelected to be false
-#if WINDOWS_PHONE
+#if WINDOWS_PHONE || ANDROID
             isSelected = false;
 #endif
 

@@ -71,7 +71,7 @@ namespace GameStateManagementSample
             screenManager.AddScreen(new BackgroundScreen(), null);
 
             // We have different menus for Windows Phone to take advantage of the touch interface
-#if WINDOWS_PHONE
+#if WINDOWS_PHONE|| ANDROID
             screenManager.AddScreen(new PhoneMainMenuScreen(), null);
 #else
             screenManager.AddScreen(new MainMenuScreen(), null);
